@@ -1,0 +1,36 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceScreen
+        android:summary="@string/app_name"
+        android:title="@string/title_app_name" />
+
+    <PreferenceScreen
+        android:summary="@string/app_version"
+        android:title="@string/title_app_version" />
+
+    <PreferenceScreen
+        android:summary="@string/app_email"
+        android:title="@string/title_app_email" />
+
+    <PreferenceScreen
+        android:summary="@string/app_copyright"
+        android:title="@string/title_app_copyright" />
+
+    <PreferenceScreen
+        android:summary="Notwithstanding anything else in this policy, we may work with partners who use mobile SDKs, including the OneSignal Messaging SDK, to passively collect information (collectively, SDK Information), which generally helps us deliver personalized notifications. This data may also be used to identify you in a unique manner across other devices or browsers for the purposes of customizing ads or content. Depending on the permissions granted to this application, this information may include personally identifiable information (PII) including your e-mail address."
+        android:title="@string/title_app_policy" />
+
+    <PreferenceScreen
+        android:summary="This information may also include precise location (i.e. GPS-level data) or WiFi information, apps you have installed and enabled, and your mobile identifier (e.g., Android Advertising ID)."
+        />
+    <PreferenceScreen
+        android:title="Consumer Control &amp; Opt-Out Options" />
+
+    <PreferenceScreen
+        android:summary="You may in most cases opt out of receiving push notifications by going to your device Settings and clicking on Notifications, and then changing those settings for some or all of the apps on your device. (Different device configurations, or updates to devices, may affect or change how these settings work.)"
+        android:title="a. Opting-out of OneSignal Push Notifications" />
+
+    <PreferenceScreen
+        android:summary="You can opt out of having your mobile advertising identifiers used for certain types of interest-based (also called cross-app) mobile behavioral advertising, by accessing the settings on your Apple or Android mobile device, as follows: By opening the Google Settings app on your device, selecting Ads, and then selecting the option to opt-out of interest-based ads. (Different device configurations, or updates to devices, may affect or change how these settings work.)"
+        android:title="b. Opting Out of Cross-App Advertising on Mobile Devices" />
+</PreferenceScreen>

@@ -1,0 +1,61 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion '29.0.2'
+
+    defaultConfig {
+        applicationId 'fun.romancemania.ninex'
+
+        /* // TODO: Please update the Google Project number and OneSignal Id below to yours.
+        manifestPlaceholders = [manifestApplicationId          : "${applicationId}",
+                                onesignal_app_id               : "1aadc04d-9525-41f6-8a31-b11f84df0a29",
+                                onesignal_google_project_number: "482426639856"]*/
+
+        minSdkVersion 15
+        targetSdkVersion 29
+        versionCode 3
+        versionName '1.2'
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+    }
+    useLibrary 'org.apache.http.legacy'
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+//
+//    aaptOptions.cruncherEnabled = false
+//    aaptOptions.useNewCruncher = false
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    //   testCompile 'junit:junit:4.12'
+    /*compile 'com.android.support:appcompat-v7:27.0.1'*/
+    implementation 'androidx.appcompat:appcompat:1.0.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.palette:palette:1.0.0'
+    implementation 'androidx.browser:browser:1.0.0'
+//    implementation 'com.squareup.picasso:picasso:2.71828'
+
+    //implementation 'com.google.android.gms:play-services:12.0.1'
+    //  implementation 'com.google.android.gms:play-services:12.0.1'
+    implementation 'com.google.android.gms:play-services-ads:15.0.1'
+    implementation 'androidx.recyclerview:recyclerview:1.0.0'
+    //  implementation 'com.onesignal:OneSignal:2.+@aar'
+    /*compile fileTree(include: ['YouTubeAndroidPlayerApi.jar'], dir: 'libs')
+    compile fileTree(include: ['picasso-2.5.2.jar'], dir: 'libs')*/
+    implementation 'me.relex:circleindicator:1.2.2@aar'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test:runner:1.1.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.0'
+}

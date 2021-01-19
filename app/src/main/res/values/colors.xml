@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--app main color-->
+    <!--<color name="ColorPrimary">#E62119</color>
+    <color name="ColorPrimaryDark">#E62119</color>
+    <color name="ColorAccent">#000000</color>-->
+
+    <!--<color name="ColorPrimary">#08bc9f</color>-->
+    <!--<color name="ColorPrimaryDark">#008b71</color>-->
+    <!--<color name="ColorAccent">#FF4081</color>-->
+    <!--<color name="colorLightBlue">#80add7</color>-->
+
+    <color name="ColorPrimary">#FF5722</color>
+    <color name="ColorPrimaryDark">#E64A19</color>
+    <color name="ColorAccent">#E64A19</color>
+    <color name="colorLightBlue">#80add7</color>
+
+
+    <!--tab color-->
+    <color name="tabIndicatorColor">#FFFFFF</color>
+    <color name="tabSelectedTextColor">#FFFFFF</color>
+    <color name="tabTextColor">#000000</color>
+
+    <!--swipe down refresh animation color-->
+    <color name="orange">#FF9900</color>
+    <color name="green">#009900</color>
+    <color name="blue">#000099</color>
+    <color name="red">#60602f</color>
+
+    <!--other-->
+    <color name="background_color">#f2f2f2</color>
+    <color name="divider">#f2f2f2</color>
+    <color name="text_color">#525252</color>
+    <color name="black">#000000</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="list_bg">#ffffff</color>
+    <color name="white">#ffffff</color>
+
+
+    <!--<color name="dot_selected">#FF9900</color> app color-->
+
+    <!--<color name="dot_selected">#08bc9f</color>-->
+    <color name="dot_selected">#ffffff</color>
+    <color name="non_dot_selected">#000000</color>
+    <color name="more_btn_bg">#000000</color>
+    <color name="home_bg">#80111113</color>
+    <color name="home_card_bg">#ffffff</color>
+
+
+    <!--<color name="card_bg">#232227</color>   app color-->
+
+    <!--<color name="card_bg">#08bc9f</color>-->
+    <color name="card_bg">#FF5722</color>
+    <color name="top_bg">#111113</color>
+    <color name="drawer_bg">#686A67</color>
+    <color name="drawer_selected">#232227</color>
+    <color name="drawer_unselected">#232227</color>
+
+</resources>
